@@ -41,7 +41,7 @@ buttons = [
     "C", "0", "=", "/"
 ]
 
-# Creating buttons and assigning to grid 0123456789
+# Creating buttons and assigning to grid 012345678922222
 row, col = 0, 0
 for button_text in buttons:
     btn = tk.Button(button_frame, text=button_text, font=('Arial', 16), padx=20, pady=20)
